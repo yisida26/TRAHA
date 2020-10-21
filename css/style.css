@@ -1,0 +1,602 @@
+@charset "utf-8";
+#wrap {
+	width: 100%;
+	margin: 0 auto;
+}
+div {
+	margin: 0 auto;
+}
+header > nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 200px;
+	width: calc(100% - 202px);
+	/* background-color: black; */
+}
+
+header > nav > .gnb {
+	display: flex;
+	height: 65px;
+}
+
+header > nav > .gnb > li {
+	width: 420px;
+}
+header > nav > .gnb > li > .lnb {
+	display: none;
+}
+header > nav > .gnb > li > a {
+	display: block;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+}
+header > nav > .gnb > li > ol > li > a {
+	margin-bottom: 10px;
+}
+header > nav > .gnb > li > a,
+header > nav > .gnb > li > ol > li > a {
+	color: gray;
+}
+header > nav > .gnb > li.on > a,
+header > nav > .gnb > li > ol > li.on > a {
+	color: white;
+}
+
+.bg {
+	display: none;
+	width: 1900px;
+	height: 180px;
+	background-color: black;
+}
+header > nav > ul {
+	background-color: black;
+}
+
+header > nav > .gnb > .TRAHA {
+	background-image: url(../images/KakaoTalk_20200911_172913747.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-indent: -9999px;
+	width: 400px;
+	height: 65px;
+	/* border: 1px solid red; */
+}
+header > nav > .gnb > .pon {
+	background-image: url(../images/어플.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-indent: -9999px;
+	width: 360px;
+	height: 45px;
+	margin-top: 10px;
+}
+header > nav > .gnb > .gogl {
+	background-image: url(../images/어플.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -165px;
+	width: 360px;
+	height: 45px;
+	text-indent: -9999px;
+	margin-top: 10px;
+}
+header > nav > .gnb > .galaxy {
+	background-image: url(../images/어플.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -328px;
+	width: 360px;
+	height: 45px;
+	text-indent: -9999px;
+	margin-top: 10px;
+}
+header > nav > .gnb > .one {
+	background-image: url(../images/어플.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -490px;
+	width: 360px;
+	height: 45px;
+	text-indent: -9999px;
+	margin-top: 10px;
+}
+.gnb > li > ol > li > a {
+	display: none;
+}
+.gnb > li > ol > li > a {
+	display: block;
+}
+
+nav > .gnb {
+	display: flex;
+	position: relative;
+	width: 1900px;
+}
+nav > .gnb > li {
+	position: relative;
+	justify-content: space-between;
+	left: 0px;
+	top: 0;
+	width: 180px;
+	/* border: 1px solid red; */
+	font-size: 20px;
+	text-align: center;
+}
+nav > .gnb > li > ol {
+	width: 180px;
+	text-align: center;
+	margin-top: 10px;
+}
+header > div {
+	width: 1900px;
+	/* border: 1px solid #00f; */
+	overflow: hidden;
+}
+/* .slides-conter {
+	border: 10px solid red;
+	display: flex;
+	position: absolute;
+} */
+.main {
+	display: flex;
+	width: 3800px;
+	height: 500px;
+}
+.main > li {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 1900px;
+	height: 640px;
+	text-indent: -9999px;
+}
+.main > li > a {
+	display: block;
+	width: 1900px;
+	height: 640px;
+}
+
+.main > li:nth-child(1) {
+	background-image: url(../images/메인배너_PC_공식카페오픈.jpg);
+}
+.main > li:nth-child(2) {
+	background-image: url(../images/traha_메인_pc.jpg);
+}
+
+.slides > .main-ol {
+	display: flex;
+	width: 1900px;
+}
+.slides > .main-ol > li {
+	position: relative;
+	left: 0px;
+	top: -25px;
+	/* margin-top: 500px; */
+	height: 100px;
+	text-align: center;
+	line-height: 101px;
+	background-color: rgb(0, 0, 0, 0.5);
+	font-weight: 800;
+}
+.slides > .main-ol > .left {
+	width: 475px;
+	text-align: right;
+	font-size: 50px;
+}
+.slides > .main-ol > .left > a {
+	color: rgba(175, 175, 175, 0.4);
+}
+
+.slides > .main-ol > .update {
+	font-size: 25px;
+	width: 475px;
+	font-weight: 500;
+}
+.slides > .main-ol > .update > a {
+	color: white;
+	display: block;
+}
+.slides > .main-ol > .update:hover > a {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-top: 3px solid white;
+}
+.slides > .main-ol > .open {
+	font-size: 25px;
+	width: 475px;
+	color: white;
+	font-weight: 500;
+}
+.slides > .main-ol > .open > a {
+	color: white;
+	display: block;
+}
+.slides > .main-ol > .open:hover > a {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-top: 3px solid white;
+}
+.slides > .main-ol > .right {
+	width: 475px;
+	text-align: left;
+	font-size: 50px;
+}
+.slides > .main-ol > .right > a {
+	color: rgba(175, 175, 175, 0.4);
+}
+.TrahaView > h2 {
+	background-image: url(../images/main-tit-v3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-indent: -9999px;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	left: 50%;
+	top: 10px;
+	margin-top: 50px;
+	margin-left: -80px;
+}
+.TrahaView > div {
+	overflow: hidden;
+
+	position: relative;
+	width: 1240px;
+}
+.TrahaView > div > ul {
+	display: flex;
+	position: relative;
+	width: calc(600px*18);
+	margin-left: 350px;
+	left: 50%;
+	top: 0;
+	margin-left: -600px;
+	margin-top: 50px;
+}
+
+.TrahaView > div > ul > li {
+	width: 600px;
+	height: 350px;
+	margin-left: 20px;
+	margin-top: 50px;
+	text-indent: -99999px;
+}
+.TrahaView > div > ul > li > a {
+	display: block;
+	width: 600px;
+	height: 350px;
+}
+
+.TrahaView > div > ul > li:nth-child(1) {
+	background-image: url(../images/fkdepqsla.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(2) {
+	background-image: url(../images/OH리님.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(3) {
+	background-image: url(../images/oh리님크리에이터.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(4) {
+	background-image: url(../images/rheozldzksla.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(5) {
+	background-image: url(../images/고대킹카님4월.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(6) {
+	background-image: url(../images/랑뎁님.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(7) {
+	background-image: url(../images/베로니카레이스님-선정작.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(8) {
+	background-image: url(../images/소낙님.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(9) {
+	background-image: url(../images/소낙님4월크리에이터영상.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(10) {
+	background-image: url(../images/소낙님크리에이터.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(11) {
+	background-image: url(../images/소낙님트라하뷰.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(12) {
+	background-image: url(../images/악동태왕님.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(13) {
+	background-image: url(../images/애리님.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(14) {
+	background-image: url(../images/옹알옹알님_1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(15) {
+	background-image: url(../images/옹알옹알님.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(16) {
+	background-image: url(../images/코엑스님.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(17) {
+	background-image: url(../images/크리에이터_소낙님.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.TrahaView > div > ul > li:nth-child(18) {
+	background-image: url(../images/크리에이터_차쨩님.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.Media {
+	width: 1900px;
+	margin-top: 250px;
+	height: 700px;
+	background-color: rgb(231, 231, 231);
+}
+.Media > h2 {
+	background-image: url(../images/main-tit-v3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 75%;
+	text-indent: -9999px;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	left: 50%;
+	top: 100px;
+	margin-left: -100px;
+	margin-top: 100px;
+}
+.Media > ul {
+	display: flex;
+	position: relative;
+	left: 50%;
+	top: 200px;
+	margin-left: -651px;
+	width: 1370px;
+}
+.Media > ul > li {
+	height: 500px;
+	margin-left: 15px;
+	text-indent: -9999px;
+}
+.Media > ul > li > a {
+	display: block;
+	width: 440px;
+	height: 250px;
+}
+.Media > ul > li:nth-child(1) {
+	background-image: url(../images/190418_플레이_하이퀄리티.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 440px;
+	height: 250px;
+}
+.Media > ul > li:nth-child(2) {
+	background-image: url(../images/05.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 440px;
+	height: 250px;
+}
+.Media > ul > li:nth-child(3) {
+	background-image: url(../images/06.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 440px;
+	height: 250px;
+}
+.media_1 {
+	display: flex;
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+	left: 50%;
+	top: 200px;
+	margin-left: -655px;
+	width: 1369px;
+}
+
+.media_1 > li:nth-child(1) {
+	margin-left: 17px;
+	width: 440px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: white;
+}
+.media_1 > li:nth-child(2) {
+	margin-left: 17px;
+	width: 440px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: white;
+}
+.media_1 > li:nth-child(3) {
+	margin-left: 15px;
+	width: 440px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: white;
+}
+.pcgame {
+	height: 400px;
+}
+.pc {
+	background-image: url(../images/main-tit-v3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 100%;
+	text-indent: -9999px;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	left: 50%;
+	top: 50px;
+	margin-left: -100px;
+	margin-top: 100px;
+}
+.pcgame > div > ul {
+	width: 600px;
+	top: 150px;
+	display: flex;
+	position: relative;
+	left: 50%;
+	margin-left: -300px;
+}
+.pcgame > div > ul > li {
+	text-indent: -9999px;
+	width: 100px;
+	height: 100px;
+}
+.pcgame > div > ul > li > a {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.pcgame > div > ul > li:nth-child(1) {
+	background-image: url(../images/main-platform-list.png);
+	background-position-x: 64%;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+.pcgame > div > ul > li:nth-child(2) {
+	background-image: url(../images/main-platform-list.png);
+	background-position-x: -60px;
+	background-repeat: no-repeat;
+	margin-left: 130px;
+}
+.pcgame > div > ul > li:nth-child(3) {
+	background-image: url(../images/main-platform-list.png);
+	background-position-x: 91%;
+	background-repeat: no-repeat;
+	margin-left: 130px;
+}
+.pcgame > ol {
+	width: 700px;
+	position: relative;
+	left: 50%;
+	top: 0;
+	margin-top: 150px;
+	margin-left: -300px;
+}
+.pcgame > ol > li {
+	font-size: 13px;
+	font-weight: 600;
+	color: rgb(184, 183, 183);
+}
+footer {
+	background-color: rgb(48, 48, 48);
+	height: 100px;
+	width: 1900px;
+}
+footer > address > .NEX {
+	position: relative;
+	left: 50%;
+	top: 0;
+	margin-left: -280px;
+	background-image: url(../images/다운로드.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 70px;
+	height: 70px;
+	text-indent: -9999px;
+}
+footer > address > p {
+	position: relative;
+	left: 50%;
+	top: 0;
+	width: 350px;
+	margin-left: -200px;
+	margin-top: -40px;
+	color: gray;
+}
+footer > address > .MOAI {
+	position: relative;
+	left: 50%;
+	top: 0;
+	margin-left: 160px;
+	margin-top: -40px;
+	background-image: url(../images/20170607000064_0.png);
+	width: 60px;
+	height: 60px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-indent: -9999px;
+}
+footer > .fot > .foot {
+	display: flex;
+	position: relative;
+	width: 400px;
+	left: 50%;
+	top: 0;
+	margin-left: -155px;
+}
+footer > .fot > .foot > li {
+	width: 98px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	outline: 1px solid gray;
+	margin-left: 20px;
+}
+footer > .fot > .foot > li > a {
+	color: gray;
+}
